@@ -1,0 +1,51 @@
+echo "# Mojang-Pag" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DeividCartagena/Mojang-Pag.git
+git push -u origin main
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>-Mojang Studios-</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="principio.jpg"height="720" width="1280"> 
+    <header>
+    <h1>-Mojang Studios-</h1> <img src="logo.jpg" height="100" width="120">
+    <h2>Indice:</h2>
+    <nav>
+      <a href="#about">Sobre Mojang Studios</a>
+      <a href="#games">Juegos de la empresa</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Sobre La Empresa Mojang Studios</h2>
+      <p>Mojang Studios (del sueco mojäng)es un desarrollador de videojuegos sueco y un estudio de Xbox Game Studios con sede en Estocolmo. El estudio fue fundado por Markus Persson (conocido comúnmente como Notch) en 2009 como Mojang Specifications, heredando el nombre de una empresa del mismo nombre que dejó dos años antes. Mojang comenzó a desarrollar el videojuego sandbox Minecraft en 2009, que se convertiría en el videojuego más vendido de todos los tiempos y establecería una exitosa franquicia multimedia. Mojang Specifications se convirtió en Mojang AB a finales de 2010. Con el deseo de abandonar Minecraft, Persson vendió Mojang a Xbox Game Studios (entonces llamado Microsoft Studios) en 2014. En mayo de 2020, Mojang cambió su nombre a Mojang Studios.</p>
+      <p>La misión de Mojang Studios es "crear juegos que la gente quiera jugar". La empresa se compromete a crear juegos que sean divertidos, creativos y accesibles para todos. Mojang Studios también se compromete a apoyar a la comunidad de jugadores y a crear un entorno seguro y acogedor para todos.</p>
+    </section>
+    <section id="games">
+      <h2>Juegos</h2>
+      <ul>
+        <h2><li>Minecraft a java and bedrock game</li></h2>
+    <img src="minecraft.jpg"> </img>
+        <h2><li>Scrolls a mobile game</li></h2>
+        <img src="Scrolls.jpg"> </img>
+        <h2><li>Cobalt</li></h2>
+        <img src="Cobalt.jpg"></img>
+        <h2><li>Minecraft: Story Mode</li></h2>
+        <img src="MCSM.jfif"></img>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros. Puedes enviarnos un correo electrónico a info@mojang.com o llamarnos al +46 8 525 250 00.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2023 Mojang Studios. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
